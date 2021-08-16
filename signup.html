@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+
+		<!-- Website CSS style -->
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+		<!-- Website Font style -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="sigupsam.css">
+
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="index.css">
+		<title>Sign up form</title>
+
+<style>
+#bgbox{
+  width: inherit;
+}
+.left{
+float: left;
+}
+</style>
+
+	</head>
+
+
+
+      <body  bgcolor="#f2f3f7">
+
+        <div>
+          <ul id="nav1">
+              <li id="showtrckr" style="background-color:yellow;">Show<b>Trackr</b></li>
+              <li id="showtrckr"><a id="navtext" href="index.html">Home</a></li>
+              <li id="showtrckr"><a id="navtext" href="addshow.html">Add</a></li>
+              <li id="showtrckr" ><a id="navtext" href="#">Sign up</a></li>
+              <li id="showtrckr" class="float"><a id="navtext" href="login.html">Login</a></li>
+          </ul>
+        </div>
+
+        <div class="container" id="bgbox" >
+            <div class="row">
+                <div class="col-md-3 col-md-offset-4">
+                    <div class="account-box">
+
+
+
+					<form class="form-horizontal" method="post" action="#">
+            <center><h2><b>Sign up</b></h2></center>
+
+						<div class="form-group" >
+<form name="form1" action="#">
+							<label for="name" class="cols-sm-2 control-label">Name</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                  <input type="text"  class="form-control" name="name" id="name" onkeypress="return lettersOnly(event)"  placeholder="Type your Name" style="width:220px;" required/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label">Email</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									<input type="email" class="form-control" name="email" id="email"   placeholder="Type your Email"  style="width:220px;" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required />
+<!-- pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" -->
+                </div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="mobile" class="cols-sm-2 control-label required">Password</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon" ><i class="fa fa-key icon aria-hidden="true" ></i></span>
+									<input type="password" class="form-control" name="password" id="password"  placeholder="Type your Password" style="width:220px;" required/>
+								</div>
+							</div>
+						</div>
+
+
+            <h6>by clicking the sign up,you agree to terms &<br> conditions and privacy policy </h6>
+
+
+
+						<div class="form-group ">
+            <center><input type="submit" name="submit" value="Submit" class="btn btn-primary btn-lg btn-block login-button" style="width:230px;" /></centers>
+
+						</div>
+
+            <div>
+               <p class="left">already have an account?</p> <a href="login.html">log in now</a></a>
+            </div>
+
+					</form>
+				</div>
+			</div>
+    </form>
+		</div>
+
+		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script src="validation.js"> </script>
+
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("email").pattern;
+    }
+    </script>
+
+
+	</body>
+</html>

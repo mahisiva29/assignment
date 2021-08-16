@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ShowTrackr</title>
+
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+
+    .column {
+      float: left;
+      width: 25%;
+      padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+   }
+
+
+
+    </style>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="filter.js">
+
+  </head>
+  <body>
+    <div>
+      <ul id="nav1">
+          <li id="showtrckr" style="background-color:yellow;">Show<b>Trackr</b></li>
+          <li id="showtrckr"><a id="navtext" href="index.html">Home</a></li>
+          <li id="showtrckr"><a id="navtext" href="addshow.html">Add</a></li>
+          <li id="showtrckr" ><a id="navtext" href="signup.html">Sign up</a></li>
+          <li id="showtrckr" class="float"><a id="navtext" href="login.html">Login</a></li>
+      </ul>
+    </div>
+    <div id="letters">
+      <h3 align="center">0-9
+        <a href="#" id="example" class="display">A</a>
+        <a href="#">B</a>
+        <a href="#">C</a>
+        <a href="#">D</a>
+        <a href="#">E</a>
+        <a href="#">F</a>
+        <a href="#">G</a>
+        <a href="#">H</a>
+        <a href="#">I</a>
+        <a href="#">J</a>
+        <a href="#">K</a>
+        <a href="#">L</a>
+        <a href="#">M</a>
+        <a href="#">N</a>
+        <a href="#">O</a>
+        <a href="#">P</a>
+        <a href="#">Q</a>
+        <a href="#">R</a>
+        <a href="#">S</a>
+        <a href="#">T</a>
+        <a href="#">U</a>
+        <a href="#">V</a>
+        <a href="#">W</a>
+        <a href="#">X</a>
+        <a href="#">Y</a>
+        <a href="#">Z</a>
+    </di>
+      </h3>
+        <ul id="divid">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Asventure</a></li>
+            <li><a href="#">Animation</a></li>
+            <li><a href="#">Children</a></li>
+            <li><a href="#">Comedy</a></li>
+            <li><a href="#">Crime</a></li>
+            <li><a href="#">Documentary</a></li>
+            <li><a href="#">Drama</a></li>
+            <li><a href="#">Family</a></li>
+            <li><a href="#">Fantasy</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Home and Garden</a></li>
+            <li><a href="#">Horror</a></li>
+            <li><a href="#">Mini-Series</a></li>
+          <br><br>
+            <li><a href="#">Mystery</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Reality</a></li>
+            <li><a href="#">Romance</a></li>
+            <li><a href="#">Sci-Fi</a></li>
+            <li><a href="#">Sport</a></li>
+            <li><a href="#">Suspense</a></li>
+            <li><a href="#">Talk Show</a></li>
+            <li><a href="#">Thiriller</a></li>
+            <li><a href="#">Travel</a></li>
+        </ul>
+    </div>
+    <div id="shows">
+      <div id="search">
+        <h4>TOP 12 SHOWS</h4>
+        <div align="right">
+           <!-- <input type="search" name="search" placeholder="Search...." id="letters" onkeyup="myFunction()">  -->
+          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+        </div>
+     </div>
+
+<!-- 1st line -->
+    <div class="row">
+      <div class="column">
+        <a href="details.html" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/en/e/e8/Game_of_Thrones_Season_1.jpg" alt="Snow" width="200" height="350" border="0" align="center"><br>
+        <b>Game of Thrones</b><br>
+         Episode: 84
+      </div>
+      <div class="column">
+        <a href="https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg" target="_blank">
+        <img src="https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg" alt="Forest" width="200" height="350" border="0" align="center">
+        <b>Breaking Bad</b><br>
+         Episode: 84
+      </div>
+      <div class="column">
+        <a href="https://static-01.daraz.lk/p/f9bba7380df3b1dc22590b5e73db44db.jpg" target="_blank">
+        <img src="https://static-01.daraz.lk/p/f9bba7380df3b1dc22590b5e73db44db.jpg" alt="Forest" width="200" height="350" border="0" align="center">
+        <b>Breaking Bad</b><br>
+         Episode: 84
+      </div>
+      <div class="column">
+         <a href="https://m.media-amazon.com/images/I/91vD+J1hGQL._SL1500_.jpg" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/91vD+J1hGQL._SL1500_.jpg" alt="Dexter" width="200" height="350" border="0" align="center">
+        <b>Dexter</b><br>
+         Episode: 84
+      </div>
+    </div>
+
+<!-- 2ndline -->
+    <div class="row">
+      <div class="column">
+        <a href="https://upload.wikimedia.org/wikipedia/en/e/e8/Game_of_Thrones_Season_1.jpg" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/en/e/e8/Game_of_Thrones_Season_1.jpg" alt="Snow" width="200" height="350" border="0" align="center"><br>
+        <b>Game of Thrones</b><br>
+         Episode: 84
+      </div>
+      <div class="column">
+        <a href="https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg" target="_blank">
+        <img src="https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg" alt="Forest" width="200" height="350" border="0" align="center">
+        <b>Breaking Bad</b><br>
+         Episode: 84
+      </div>
+      <div class="column">
+        <a href="https://static-01.daraz.lk/p/f9bba7380df3b1dc22590b5e73db44db.jpg" target="_blank">
+        <img src="https://static-01.daraz.lk/p/f9bba7380df3b1dc22590b5e73db44db.jpg" alt="Forest" width="200" height="350" border="0" align="center">
+        <b>Breaking Bad</b><br>
+         Episode: 84
+      </div>
+      <div class="column">
+         <a href="https://m.media-amazon.com/images/I/91vD+J1hGQL._SL1500_.jpg" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/91vD+J1hGQL._SL1500_.jpg" alt="Dexter" width="200" height="350" border="0" align="center">
+        <b>Dexter</b><br>
+         Episode: 84
+      </div>
+    </div>
+
+<!-- 3rdline -->
+
+     <div class="row">
+       <div class="column">
+         <a href="https://upload.wikimedia.org/wikipedia/en/e/e8/Game_of_Thrones_Season_1.jpg" target="_blank">
+         <img src="https://upload.wikimedia.org/wikipedia/en/e/e8/Game_of_Thrones_Season_1.jpg" alt="Snow" width="200" height="350" border="0" align="center"><br>
+         <b>Game of Thrones</b><br>
+          Episode: 84
+       </div>
+       <div class="column">
+         <a href="https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg" target="_blank">
+         <img src="https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg" alt="Forest" width="200" height="350" border="0" align="center">
+         <b>Breaking Bad</b><br>
+          Episode: 84
+       </div>
+       <div class="column">
+         <a href="https://static-01.daraz.lk/p/f9bba7380df3b1dc22590b5e73db44db.jpg" target="_blank">
+         <img src="https://static-01.daraz.lk/p/f9bba7380df3b1dc22590b5e73db44db.jpg" alt="Forest" width="200" height="350" border="0" align="center">
+         <b>Breaking Bad</b><br>
+          Episode: 84
+       </div>
+       <div class="column">
+          <a href="https://m.media-amazon.com/images/I/91vD+J1hGQL._SL1500_.jpg" target="_blank">
+         <img src="https://m.media-amazon.com/images/I/91vD+J1hGQL._SL1500_.jpg" alt="Dexter" width="200" height="350" border="0" align="center">
+         <b>Dexter</b><br>
+          Episode: 84
+       </div>
+     </div>
+
+
+
+
+
+
+     <script>
+ function myFunction() {
+     var input, filter, ul, li, a, i, txtValue;
+     input = document.getElementById("myInput");
+     filter = input.value.toUpperCase();
+     ul = document.getElementById("divid");
+     li = ul.getElementsByTagName("li");
+     for (i = 0; i < li.length; i++) {
+         a = li[i].getElementsByTagName("a")[0];
+         txtValue = a.textContent || a.innerText;
+         if (txtValue.toUpperCase().indexOf(filter) > -1) {
+             li[i].style.display = "";
+         } else {
+             li[i].style.display = "none";
+         }
+     }
+ }
+ </script>
+
+ <!-- <footer>
+   <p>&copy; Skillcrush 2016</p>
+ </footer>
+
+  -->
+  </body>
+</html>

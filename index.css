@@ -1,0 +1,104 @@
+#nav1{
+  padding-left: 0px ;
+  background-color: rgb(240, 242, 245);
+  height: 50px;
+
+}
+#navtext{
+  text-decoration: none;
+  color:black;
+  margin: 5px;
+
+}
+#showtrckr{
+  display:inline-block;
+  height: 50px;
+  padding: 0 15px;
+  line-height: 50px;
+}
+#show:hover{
+  background-color:rgb(117, 107, 107);
+  color:white;
+}
+h1{
+  letter-spacing: 7px
+}
+#letters{
+  background-color:rgb(227, 228, 230);
+  padding-bottom: 15px;
+  margin: 0 auto;
+}
+#divid{
+  font-size: 12px;
+  padding:bottom: 100px;
+  margin-bottom: 15px;
+  padding-left: 150px ;
+  padding-right: 140px ;
+  margin: 5px;
+
+}
+
+
+a{
+  text-decoration: none;
+  color:black;
+}
+li{
+  background-color: rgb(169,169,169);
+  display: inline-block;
+  padding: 5px;
+  word-spacing: 4px;
+}
+li:hover{
+  background-color:rgb(97, 89, 89);
+  color:white;
+}
+.float{
+  float: right;
+}
+#shows{
+  width: 65%;
+  align:center;
+  background-color: rgb(255,255,255);
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 1px;
+}
+h4{
+  display: inline;
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-bottom: 12px;
+}
+body{
+  background-color: rgb(190, 193, 196);
+}
+img{
+  padding: 9px;
+}
+#name1{
+  display: inline;
+}
+#search1{
+  float:right;
+}
+#name1{
+  display: inline;
+  padding-left: 20px;
+}
+#name2{
+  display: inline;
+  padding-left: 120px;
+}
+#name3{
+  display: inline;
+  padding-left: 155px;
+}
+#name4{
+  display:inline;
+  padding-left: 90px;
+}
+#search{
+  background-color:rgb(232,232,232);
+  padding: 10px;
+}

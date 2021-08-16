@@ -1,0 +1,90 @@
+<html>
+<head><title>ShowTrackr</title>
+<style>
+
+.div1{
+  width: 80%;
+  padding: 10px;
+  border: 0px;
+
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #598bde;
+  border: none;
+  border-radius: 15px;
+  /* box-shadow: 0 9px #999; */
+}
+
+.button:hover {background-color: #587fbf}
+
+.button:active {
+  background-color: #7b8bed;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+ #addtv{
+  width: 80%;
+  background-color: rgb(248,248,248);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-bottom:10px;
+
+}
+.groove {
+ margin-top: 0px;
+margin-left: 0;
+background-color: #ebedf7;
+
+}
+
+
+</style>
+
+  <link rel="stylesheet" href="index.css">
+</head>
+<script>
+
+// var restrict = function(tb) {
+//   tb.value = tb.value.replace(/[^a-zA-Z]/g, '');
+// };
+</script>
+<body  bgcolor="#f2f3f7" onload='document.form1.text1.focus()'>
+
+
+  <div>
+    <ul id="nav1">
+        <li id="showtrckr" style="background-color:yellow;">Show<b>Trackr</b></li>
+        <li id="showtrckr"><a id="navtext" href="index.html">Home</a></li>
+        <li id="showtrckr"><a id="navtext" href="addshow.html">Add</a></li>
+        <li id="showtrckr" ><a id="navtext" href="signup.html">Sign up</a></li>
+        <li id="showtrckr" class="float"><a id="navtext" href="login.html">Login</a></li>
+    </ul>
+  </div>
+
+  <form name="form1" action="#">
+
+  <div id="addtv" >
+         <h3 class="groove">ADD TV SHOW</h3>
+         <form action="index.html" method="post">
+           <p><b> <label for="TV show"> Name </label> </b> <br> <br>
+           <input type="text" name="text1" placeholder="Enter TV show name" size="120%"  > <br></p>
+
+           <input type="submit" name="submit" value="Submit" onclick="allLetter(document.form1.text1)" />
+
+
+
+   </div>
+</form>
+<script src="validation.js"> </script>
+</body>
+</html>
